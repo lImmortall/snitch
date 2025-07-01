@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #222;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.site-header {
+  background: #f8f8f8;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.site-header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.site-header nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+}
+
+.hero {
+  background: #eee;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h2 {
+  font-size: 32px;
+}
+
+.btn {
+  display: inline-block;
+  background: #222;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.categories, .featured {
+  padding: 40px 0;
+}
+
+.category-grid, .product-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.category-card, .product-card {
+  background: #fafafa;
+  border: 1px solid #ddd;
+  padding: 20px;
+  flex: 1 1 calc(33.333% - 20px);
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+
+.product-detail {
+  display: flex;
+  gap: 20px;
+  padding: 40px 0;
+}
+
+.product-detail img {
+  width: 400px;
+  height: auto;
+}
+
+.product-info {
+  max-width: 400px;
+}
+
+.checkout form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.thankyou {
+  text-align: center;
+  padding: 60px 0;
+}
+
+.site-footer {
+  background: #f8f8f8;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 40px;
+}
